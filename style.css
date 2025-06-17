@@ -1,0 +1,45 @@
+body{
+    background-color: blueviolet;
+
+}
+h1{
+    /* border:2px solid black; */
+    width:fit-content;
+    margin:30px auto;
+    font-size:4rem;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    width:50vw;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+    font-size: 1.5rem;
+}
+.view{
+    border:2px solid black;
+    width:70vw;
+    margin:auto;
+    background-color: bisque;
+    height:70vh;
+    border-radius: 5rem;
+}
+#convert{
+    background-color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+#convert:hover{
+    background-color:brown;
+    color:white;
+}
+select{
+    background-color:cornsilk;
+    padding:3px;
+    width:40vw;
+}
